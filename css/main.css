@@ -1,6 +1,7 @@
 *,
 body {
-    margin: 0
+    margin: 0;
+    scroll-behavior: smooth;
 }
 
 .navigation,
@@ -293,7 +294,7 @@ ul li a span {
 .photo-bg {
     z-index: 1;
     width: 77%;
-    height: 85%;
+    height: 80%;
     position: absolute;
     top: 4rem;
     right: 4rem;
@@ -301,12 +302,12 @@ ul li a span {
 }
 
 .photo-bg div {
-    background: url(../img/hand.jpeg) center left no-repeat;
+    background: url(../img/hand1.jpg) center left no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
-    -webkit-animation: bg 25s linear infinite alternate;
-    animation: bg 25s linear infinite alternate
+    -webkit-animation: bg 20s linear infinite alternate;
+    animation: bg 20s linear infinite alternate
 }
 
 .social-media {
@@ -351,9 +352,9 @@ ul li a span {
 
 .home p {
     margin-left: 16rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     z-index: 10;
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight: 300;
     color: #212121
 }
@@ -1180,6 +1181,9 @@ textarea::-ms-input-placeholder {
 .contact-icon {
     height: 2.65rem;
     margin-bottom: .75rem
+}
+.footer-icon{
+    height: .75rem;
 }
 
 .footer {
