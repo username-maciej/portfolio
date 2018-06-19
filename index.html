@@ -167,14 +167,17 @@
         <div class="form">
 
             <h2 class="notice">Thank <span>You!</span></h2>
-            <form class="register-form">
+            <form method="post" name="contact-form" action="mail.php" class="register-form">
                 <div class="form-group">
+                    <label class="form-label" for="name">Name*</label>
                     <input name="name" type="text" class="form-control" id="name" placeholder="Name">
                 </div>
                 <div class="form-group">
+                    <label class="form-label" for="email">Email*</label>
                     <input name="email" type="email" class="form-control" id="email" placeholder="Email">
                 </div>
                 <div class="form-group">
+                    <label class="form-label" for="message">Message*</label>
                     <textarea name="message" class="form-control" id="message" rows="3" placeholder="Write Your message"></textarea>
                 </div>
 
@@ -214,8 +217,8 @@
     </footer>
 
 
-    <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
-    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
     <script src="js/main.js" type="text/javascript"></script>
 
 </body>

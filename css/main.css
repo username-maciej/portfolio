@@ -1019,10 +1019,8 @@ textarea#message.form-control.form-visited {
     z-index: 15
 }
 
-label {
-    color: #b71c1c;
-    margin-left: 1rem;
-    margin-top: .25rem
+label.form-label {
+    display:none
 }
 
 textarea#message.form-control,
