@@ -740,7 +740,8 @@ ul li a span {
 }
 
 .case2,
-.case3 {
+.case3,
+.case4 {
     -ms-flex-line-pack: center;
     align-content: center;
     margin: 0 4rem
@@ -764,7 +765,13 @@ ul li a span {
     background-size: cover;
     display: flex
 }
-
+.case4 {
+    width: 100%;
+    height: 80vh;
+    background: url(../img/portfolio_4.jpeg) top center no-repeat;
+    background-size: cover;
+    display: flex;
+}
 .case-text {
     display: -webkit-box;
     display: -ms-flexbox;
